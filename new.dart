@@ -1,22 +1,22 @@
 import 'dart:io';
 
 void main() {
-  // print('Enter your name:');
-  // String? name7 = stdin.readLineSync();
-  // print('NAME, $name7');
+  print('Enter your name:');
+  String? name7 = stdin.readLineSync();
+  print('NAME, $name7');
   
 
-  // print('enter number');
-  // int? ethra=int.tryParse(stdin.readLineSync()!);
-  // print('number,$ethra');
+  print('enter number');
+  int? ethra=int.tryParse(stdin.readLineSync()!);
+  print('number,$ethra');
 
-  //  print('enter number');
-  // int? mmm=int.tryParse(stdin.readLineSync()!);
-  // print('hhh,$mmm');
+   print('enter number');
+  int? mmm=int.tryParse(stdin.readLineSync()!);
+  print('hhh,$mmm');
 
-  //  print('enter the number');
-  // int? ohh=int.tryParse(stdin.readLineSync()!);
-  // print('daa,$ohh');
+   print('enter the number');
+  int? ohh=int.tryParse(stdin.readLineSync()!);
+  print('daa,$ohh');
 
   List<int> ab=[2,3,4,5,6,7];
   for(int i=0; i < ab.length;i++){
